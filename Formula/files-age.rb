@@ -8,7 +8,7 @@ class FilesAge < Formula
   depends_on "node"
 
   def install
-    bin.install "package/index.js" => "files-age"
+    bin.install "index.js" => "files-age"
   end
 
   test do
